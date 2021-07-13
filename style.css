@@ -1,0 +1,527 @@
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*CONTAINER*/
+.container  {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+.header {
+width: 100%;
+height: 100px;
+
+position: absolute;
+top: 0;
+left: 0;
+z-index: 100;
+}
+
+
+.header__logo {
+
+}
+
+.logo__title {
+    margin: 0;
+    padding-top: 30px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.logo__suptitle {
+    padding-left: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*NAV*/
+.nav {
+    font-size: 14px;
+    padding-top: 55px;
+   
+}
+
+.nav__link  {
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+   color: #D4C17F;
+   text-decoration: underline;
+   
+}
+
+
+
+/*block1*/
+
+.block1 {
+    width: 100%;
+    height: 100vh;
+
+    background: url("img/Rectangle.jpg") center, no-repeat;
+    background-size: cover;
+}
+
+
+.block__title {
+    width: 556px;
+    height: 108px;
+
+    margin: 0 auto;
+    padding-top: 296px;
+   
+
+    text-align: center;
+    font-size: 48px;
+    color: #D4C17F;
+
+    
+}
+
+.block1__mouse {
+    width: 40px;
+    height: 40px;
+
+    margin: 0  auto;
+    margin-top: 100px;
+
+    background: url("img/mouse.png") center, no-repeat;
+    background-size: cover;
+}
+
+
+.block1__vector {
+    font-size: 18px;
+    color: #fff;
+}
+
+.vector {
+ width: 100%;
+ padding-top: 300px;
+ font-size: 18px;
+ color: #fff;
+
+}
+
+
+.vector1 {
+    margin-left: -60px;
+    padding-right: 18px;
+}
+
+.phone {
+    padding-left: 100px;
+    padding-right: 18px;
+}
+
+
+
+/*block2*/
+
+.block2 {
+    background-color: #242B33;
+    width: 100%;
+    height: 1300px;
+}
+
+
+.photo__block1 {
+    width: 100%;
+    height: 200px;
+    padding-top: 120px;
+    text-align: center;
+    
+
+}
+
+.building {
+    padding-left: 150px;
+}
+
+.fountain {
+    margin-left: 150px;
+}
+
+.bicycle {
+    margin-left: 150px;
+}
+
+
+.text__photo__block {
+    display: flex;
+    text-align: center;
+    padding-top: 56px;
+   
+}
+
+.bench__text {
+    width: 193px;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+   margin-left: 150px;
+}
+
+.building__text {
+    width: 133px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    margin-left: 70px;
+}
+
+.fountain__text {
+    width: 134px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    margin-left: 100px;
+}
+
+.bicycle__text {
+    width: 124px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    margin-left: 110px;
+}
+
+.II {
+    position: absolute;
+    padding-left: 1050px;
+    margin-top:  -200px;
+}
+
+.III {
+    position: absolute;
+    left: 179px;
+    top: 1470px;
+}
+
+.title__block2 {
+    padding-top: 120px;
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+.Rectangle1 {
+    position: absolute;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+
+.Rectangle2 {
+    padding-left: 970px;
+    padding-top: 100px;
+}
+
+.Rectangle3 {
+    padding-left: 400px;
+    margin: 0;
+}
+
+.Rectangle4 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.Rectangle__text1 {
+    position: absolute;
+    color: #fff;
+    font-size: 26px;
+    margin-top: -420px;
+    padding-left: 450px;
+}
+
+.Rectangle__text2{
+    position: absolute;
+    color: #fff;
+    font-size: 26px;
+    margin-top: -420px;
+    padding-left: 1010px;
+}
+
+.Rectangle__text3 {
+    position: absolute;
+    color: #fff;
+    font-size: 26px;;
+    margin-top: -50px;
+    padding-left: 450px;
+}
+
+.Rectangle__text4 {
+    position: absolute;
+    color: #fff;
+    font-size: 26px;;
+    margin-top: -50px;
+    padding-left: 1010px;
+}
+
+
+/*block3*/
+
+
+.block3 {
+    width: 100%;
+    height: 560px;
+    background: url("img/Rectangle5.jpg") center, no-repeat;
+    background-size: cover;
+}
+
+.block3__title {
+    font-size: 36px;
+    color: #D4C17F;
+    padding-top: 160px;
+}
+
+.block3__suptitle {
+    width: 535px;
+    height: 114px;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+
+.username {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    margin-left: 570px;
+    margin-top: -105px;
+    opacity: 0.2;
+    text-align: center;
+    
+}
+
+.phone1 {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    margin-left: 855px;
+    margin-top: -105px;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.input__suptext {
+    width: 255px;
+    height: 28px;
+    color: #E7E7E7;
+    font-size: 13px;
+    margin-left: 570px;
+    margin-top: -15px;
+    
+}
+
+
+.btn__block3 {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    margin-left: 855px;
+    margin-top: -25px;
+
+    border: 1px solid;
+    background-color: #D4C17F;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.btn__block3:hover {
+    background-color: #ccb666;
+
+}
+
+.look {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.look:hover {
+    text-decoration: underline;
+}
+
+/*block4*/
+
+.block4 {
+    height: 1950px;
+    background-color: #242B33;
+   align-items: center;
+}
+.block4__inner {
+    width: 700px;
+    height: 650px;
+    margin: 0 auto;
+
+    
+    background: url("img/Rectangle6.jpg") center, no-repeat;
+    background-size: cover;
+}
+
+
+.bnt__block4 {
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 270px;
+    
+}
+
+.bnt__block4:hover {
+    color: #ccb666;
+}
+
+.IV {
+    position: absolute;
+    padding-left: 970px;
+    margin-top: -450px;
+}
+
+
+.text__map {
+    font-size: 36px;
+    color: #D4C17F;
+    padding-top: 200px;
+}
+
+.map {
+   
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.text__block4 {
+    padding-top: 200px;
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+.suptext__block4 {
+width: 255px;
+height: 28px;
+
+padding-top: 30px;
+text-align: center;
+font-size: 13px;
+color: #E7E7E7;
+}
+
+.username__block4 {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    margin-left: 285px;
+    margin-top: -12px;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.phone1__block4 {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    margin-left: 570px;
+    margin-top: -12px;
+    opacity: 0.2;
+    text-align: center;
+}
+
+
+.btn__block4 {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    margin-left: 855px;
+    margin-top: -12px;
+
+    border: 1px solid;
+    background-color: #D4C17F;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.look__block4 {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.btn__block4:hover {
+    background-color: #ccb666;
+}
+
+.look__block4:hover {
+    text-decoration: underline;
+}
+
+/*futter*/
+
+.futter {
+    height: 300px;
+    background-color: #2D343C;
+}
+
+.futter__logo {
+    padding-top: 50px;
+}
+
+.futter__nav {
+    position: absolute;
+    margin-top: -80px;
+    padding-left: 300px;
+
+    font-size: 14px;
+    color: #fff;
+     
+}   
+
+.futter__nav2 {
+    position: absolute;
+    margin-top: -80px;
+    padding-left: 600px;
+
+    font-size: 14px;
+    color: #fff;
+}
+
+.futter__nav3 {
+    position: absolute;
+    margin-top: -80px;
+    padding-left: 900px;
+
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.inst {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -30px;
+}
+
+.futter__photo {
+    margin-right: 15px;
+}
